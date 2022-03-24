@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&display=swap");
+* {
+  margin: 0; }
+
+h4, h2, h1 {
+  font-family: 'Quintessential', cursive; }
+
+body {
+  background-color: #eee1b1; }
+
+/*mixin*/
+h1 {
+  margin-left: 30%;
+  justify-content: center; }
+
+.row {
+  display: block; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, auto); }
+
+header {
+  background-color: #c2a75e; }
+
+/*-----SECCION DE SERVICIOS----*/
+.services {
+  margin-top: 80px;
+  border: solid #4b3b04;
+  padding: 3px 3px 3px 3px;
+  margin-left: 9%;
+  margin-right: 9%; }
+
+h2 {
+  text-align: center; }
+
+.services .icon-box {
+  margin-bottom: 20px;
+  text-align: center; }
+
+.services .icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.5s;
+  color: #5c9f24;
+  overflow: hidden;
+  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15); }
+
+.services .icon i {
+  font-size: 36px;
+  line-height: 0; }
+
+.services:hover .icon {
+  box-shadow: 0px 0 25px rgba(92, 159, 36, 0.3); }
+
+.services .title {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 18px;
+  position: relative;
+  padding-bottom: 15px; }
+
+.services .title a {
+  color: #444444;
+  transition: 0.3s; }
+
+.services .title a:hover {
+  color: #5c9f24; }
+
+.services .title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #5c9f24;
+  bottom: 0;
+  left: calc(50% - 25px); }
+
+.services .description {
+  line-height: 24px;
+  font-size: 14px; }
+
+/*-------FIN SECCION DE SERVICIOS-----*/
+h3 a {
+  text-decoration: none; }
+
+/*--------------INICIO "CONTACTANOS"------------------*/
+.contact {
+  margin-top: 80px;
+  border: solid #4b3b04;
+  padding: 3px 3px 3px 3px;
+  margin-left: 9%;
+  margin-right: 9%; }
+
+.contact .contact-info {
+  margin-bottom: 20px;
+  text-align: center; }
+
+.contact .contact-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #5c9f24; }
+
+.contact .php-email-form button[type=submit] {
+  background: #5c9f24;
+  border: 0;
+  padding: 10px 30px 12px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px; }
+
+/*----------FIN "CONTACTANOS"------------*/
+ul {
+  list-style: none;
+  justify-content: space-between;
+  display: flex;
+  margin-left: 11%; }
+  ul li {
+    display: inline;
+    border-style: outset;
+    padding: 10px 30px 10px 30px;
+    margin: 10px 10px 10px 10px;
+    align-self: flex-end;
+    justify-content: center; }
+    ul li a {
+      text-decoration: none;
+      color: #4b3b04; }
+      ul li a:hover {
+        color: lightblue; }
+
+.img {
+  border-radius: 10%;
+width: 100px;
+height: 80px; }
+.iframe{
+  justify-content: center;
+  margin-left: 12%;
+  padding-left: 15%;
+}
+
+.mision, .vision {
+  /*MAP GET*/
+  border-style: solid;
+  border-color: #4b3b04;
+  padding: 3px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 9%;
+  margin-right: 9%; }
+
+.mision h4, .vision h4 {
+  font-size: 30px; }
+
+/*------EXTEND------*/
