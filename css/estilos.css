@@ -14,7 +14,7 @@ h1 {
   justify-content: center; }
 
 .row {
-  display: block; }
+  display: flex; }
 
 .grid {
   display: grid;
@@ -30,6 +30,15 @@ header {
   padding: 3px 3px 3px 3px;
   margin-left: 9%;
   margin-right: 9%; }
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x)); }
 
 h2 {
   text-align: center; }
@@ -138,13 +147,8 @@ ul {
 
 .img {
   border-radius: 10%;
-width: 100px;
-height: 80px; }
-.iframe{
-  justify-content: center;
-  margin-left: 12%;
-  padding-left: 15%;
-}
+  width: 50px;
+  height: 50px; }
 
 .mision, .vision {
   /*MAP GET*/
