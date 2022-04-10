@@ -1,0 +1,31 @@
+En el archivo index.html sume el SEO con las siguientes caracteristicas:
+-	Descripcion: mediante la etiqueta meta name description, agregue el siguiente texto que explica en pocas palabras el contenido de mi sitio:"Complejo de cabañas para alquiler temporario en Cordoba"
+-	Palabras clave: mediante la etiqueta meta name keywords, agregue las palabras clave que acompañan a todas las paginas de mi sitio:"complejo cabañas, alquiler,cordoba,turismo,hosteria,alojamiento"
+-	Encabezado: para el encabezado del h1 utilice el texto "Complejo de cabañas en Cordoba"
+-	Titulo: utilice el siguiente titulo:"Cauquén | HOME".
+
+En el archivo servicios.html sume el SEO con las siguientes caracteristicas:
+-	Descripcion: mediante la etiqueta meta name description, agregue el siguiente texto que explica en pocas palabras el contenido de mi sitio:"Complejo de cabañas para alquiler temporario en Cordoba"
+-	Palabras clave: mediante la etiqueta meta name keywords, agregue las palabras clave que acompañan a todas las paginas de mi sitio:"complejo cabañas, alquiler,cordoba,turismo,hosteria,alojamiento"
+-	Encabezado: para el encabezado del h1 utilice el texto "Servicios"
+-	Titulo: utilice el siguiente titulo:"Cauquén | Servicios".
+
+En el archivo galeria.html sume el SEO con las siguientes caracteristicas:
+-	Descripcion: mediante la etiqueta meta name description, agregue el siguiente texto que explica en pocas palabras el contenido de mi sitio:"Complejo de cabañas para alquiler temporario en Cordoba"
+-	Palabras clave: mediante la etiqueta meta name keywords, agregue las palabras clave que acompañan a todas las paginas de mi sitio:"complejo cabañas, alquiler,cordoba,turismo,hosteria,alojamiento"
+-	Encabezado: para el encabezado del h1 utilice el texto "Complejo de cabañas en Cordoba"
+-	Titulo: utilice el siguiente titulo:"Cauquén | Galeria".
+
+En el archivo contacatanos.html sume el SEO con las siguientes caracteristicas:
+-	Descripcion: mediante la etiqueta meta name description, agregue el siguiente texto que explica en pocas palabras el contenido de mi sitio:"Complejo de cabañas para alquiler temporario en Cordoba"
+-	Palabras clave: mediante la etiqueta meta name keywords, agregue las palabras clave que acompañan a todas las paginas de mi sitio:"complejo cabañas, alquiler,cordoba,turismo,hosteria,alojamiento"
+-	Encabezado: para el encabezado del h1 utilice el texto "Complejo de cabañas en Cordoba"
+    Agregue en h2 el texto "Contactanos"
+-	Titulo: utilice el siguiente titulo:"Cauquén | Contactanos".
+
+
+En el archivo ubicanos.html sume el SEO con las siguientes caracteristicas:
+-	Descripcion: mediante la etiqueta meta name description, agregue el siguiente texto que explica en pocas palabras el contenido de mi sitio:"Complejo de cabañas para alquiler temporario en Cordoba"
+-	Palabras clave: mediante la etiqueta meta name keywords, agregue las palabras clave que acompañan a todas las paginas de mi sitio:"complejo cabañas, alquiler,cordoba,turismo,hosteria,alojamiento"
+-	Encabezado: para el encabezado del h1 utilice el texto "Complejo de cabañas en Cordoba"
+-	Titulo: utilice el siguiente titulo:"Cauquén | Ubicanos".
